@@ -1,4 +1,4 @@
-# 🗺️ Mapa Interativo
+# 🗺️ Gestão de Mapas
 
 Projeto web para criação e gerenciamento de mapas personalizados com pontos geográficos, permitindo interação visual entre frontend e backend de forma simples e intuitiva.
 
@@ -55,7 +55,7 @@ O projeto foi desenvolvido com foco em:
 - API REST
 
 ### Banco de Dados
-- MySQL'
+- MySQL
 
 ---
 
@@ -63,26 +63,22 @@ O projeto foi desenvolvido com foco em:
 
 mapa/
 ├── css/
-│   ├── base.css        # Estilos globais
-│   ├── index.css       # Estilos da tela de listagem de mapas
-│   └── mapa.css        # Estilos da tela do mapa
-│
+│   ├── base.css
+│   ├── index.css
+│   ├── mapa.css
 ├── js/
-│   ├── base.js         # Funções utilitárias e configurações globais
-│   ├── index.js        # Lógica da tela de listagem de mapas
-│   └── mapa.js         # Lógica do mapa interativo
-│
-├── images/
-│   └── favicon.png
-│
-├── conexao.php     # Conexão com o banco de dados
+│   ├── base.js
+│   ├── index.js
+│   ├── mapa.js
+├── image/
+│   └── favico.ico.png
+├── conexao.php
 ├── criar_mapa.php
-├── listar_mapa.php
-├── listar_ponto.php
-├── editar_ponto.php
 ├── delete_ponto.php
 ├── delete_todos.php
-├── index.php           # Tela inicial (listagem de mapas)
-├── mapa.php            # Tela de detalhes do mapa
-├── tela_mapas.html
-└── README.md
+├── editar_ponto.php
+├── index.php
+├── listar_mapa.php
+├── listar_ponto.php
+├── mapa.php
+└── tela_mapas.html
