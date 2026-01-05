@@ -91,3 +91,12 @@ Breve descrição
 - `js/` — scripts JavaScript
 - `image/` — imagens e ícones
 - arquivos PHP/HTML principais para criação, listagem e edição de mapas e pontos
+
+---
+
+## 🚀 Como utilizar
+
+- Disponha de um servidor web com suporte a PHP, como Apache ou Nginx
+- Baixe o conteúdo do repositório e o disponibilize no diretório de trabalho do servidor web
+- Acesse o sistema por meio da url http://localhost/gestao-mapas/index.php
+- Para o banco de dados, execute o script **mapa_db.sql** em um banco de dados vazio no MySQL de nome mapa_db. Caso não esteja utilizando o usuário padrão do MySQL, você pode alterar as propriedades de conexão no arquivo **conexão.php**.
